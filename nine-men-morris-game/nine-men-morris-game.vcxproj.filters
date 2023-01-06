@@ -13,5 +13,42 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Archivos de encabezado\Models">
+      <UniqueIdentifier>{8fcbcca7-d670-4140-8d2d-1b56005c2743}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Views">
+      <UniqueIdentifier>{b046de15-7125-40b0-9bd7-63a6955b28d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Archivos de encabezado\Controllers">
+      <UniqueIdentifier>{e04e0f44-5d66-459b-b358-07b6569ffffe}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Scene_Game.h">
+      <Filter>Archivos de encabezado\Views</Filter>
+    </ClInclude>
+    <ClInclude Include="Board.h">
+      <Filter>Archivos de encabezado\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Box.h">
+      <Filter>Archivos de encabezado\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Piece.h">
+      <Filter>Archivos de encabezado\Models</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller_Game.h">
+      <Filter>Archivos de encabezado\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Controller_Menu.h">
+      <Filter>Archivos de encabezado\Controllers</Filter>
+    </ClInclude>
+    <ClInclude Include="Entity.h">
+      <Filter>Archivos de encabezado\Models</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Scene_Game.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
